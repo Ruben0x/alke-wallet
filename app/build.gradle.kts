@@ -37,6 +37,11 @@ application {
     mainClass = "wallet.App"
 }
 
+// Configure the run task to enable interactive console input
+tasks.named<JavaExec>("run") {
+    standardInput = System.`in`
+}
+
 tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()

@@ -173,13 +173,24 @@ wallet/
    ```
 
 3. **Ejecutar la aplicación**:
+
+   **Opción 1: Usando el script (Recomendado)**
    ```bash
-   ./gradlew run
+   # En Windows
+   run-app.bat
+
+   # En Linux/Mac
+   chmod +x run-app.sh
+   ./run-app.sh
    ```
 
-   O en Windows:
+   **Opción 2: Usando Gradle directamente**
    ```bash
-   gradlew.bat run
+   # En Linux/Mac
+   ./gradlew run --console=plain
+
+   # En Windows
+   gradlew.bat run --console=plain
    ```
 
 4. **Ejecutar las pruebas**:
