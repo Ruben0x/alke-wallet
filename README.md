@@ -162,12 +162,14 @@ wallet/
 ### Pasos de Instalación
 
 1. **Clonar el repositorio**:
+
    ```bash
    git clone <URL_DEL_REPOSITORIO>
    cd wallet
    ```
 
 2. **Compilar el proyecto**:
+
    ```bash
    ./gradlew build
    ```
@@ -175,6 +177,7 @@ wallet/
 3. **Ejecutar la aplicación**:
 
    **Opción 1: Usando el script (Recomendado)**
+
    ```bash
    # En Windows
    run-app.bat
@@ -185,6 +188,7 @@ wallet/
    ```
 
    **Opción 2: Usando Gradle directamente**
+
    ```bash
    # En Linux/Mac
    ./gradlew run --console=plain
@@ -289,7 +293,7 @@ La opción 6 ejecuta una demostración automática que muestra todas las funcion
 Las tasas están configuradas respecto al USD como moneda base:
 
 | Moneda | Código | Tasa (1 USD) |
-|--------|--------|--------------|
+| ------ | ------ | ------------ |
 | USD    | USD    | 1.00         |
 | EUR    | EUR    | 0.85         |
 | ARS    | ARS    | 350.00       |
@@ -340,39 +344,16 @@ Las tasas están configuradas respecto al USD como moneda base:
 
 ---
 
-## 👥 Autor
-
-Desarrollado como proyecto de evaluación del módulo de Programación Orientada a Objetos.
-
----
-
 ## 📄 Licencia
 
 Este proyecto es de código abierto y está disponible para fines educativos.
 
 ---
 
-## 🙏 Agradecimientos
-
-- Equipo de desarrollo de Alkemy Digital
-- Documentación oficial de Java (dev.java)
-- Comunidad de JUnit 5
-
----
-
-## 📞 Soporte
-
-Para reportar problemas o sugerencias:
-
-1. Abrir un issue en el repositorio
-2. Describir el problema detalladamente
-3. Incluir pasos para reproducir (si aplica)
-
----
-
 ## ✅ Checklist de Requerimientos
 
 ### Requerimientos Generales
+
 - [x] Crear cuenta
 - [x] Ver saldo disponible
 - [x] Realizar ingreso de dinero
@@ -380,12 +361,14 @@ Para reportar problemas o sugerencias:
 - [x] Conversión de moneda
 
 ### Requerimientos Técnicos
+
 - [x] Backend en Java con POO
 - [x] Uso de interfaces para reutilización
 - [x] Diagrama de clases
 - [x] Pruebas unitarias
 
 ### Entregables
+
 - [x] Código fuente completo
 - [x] Documentación técnica
 - [x] Prototipo funcional
